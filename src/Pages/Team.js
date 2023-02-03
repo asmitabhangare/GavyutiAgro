@@ -1,73 +1,98 @@
 import React from 'react'
+import tushar from '../asset/tushar.jpg'
+import rajan from '../asset/rajan.png'
+import profile from '../asset/profile.png'
 
 const Team = () => {
   return (
     <div className='mt-8'>
-      <div className='text-center font-extrabold text-4xl'>
+      <div className='text-center font-extrabold text-4xl text-textunder'>
         Our Team
       </div>
-      <div class="md:grid md:grid-cols-3 gap-8 mt-4 md:container md:mx-auto z-0">
-  <div className='m-12'>
-  <div className='w-80 h-96 bg-transparent cursor-pointer group perspective' >
-      <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-100'>
-        <div className='absolute backface-hidden border-2 w-full h-full'>
-        <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' className='w-full h-full'></img>
-        </div>
-        <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-navbg overflow-hidden'>
-        <div className='text-center flex flex-col items-center justify-center h-full text-gray-700 px-2 pb-24'>
-          <h1 className='text-3xl font-semibold'>The King</h1>
-          <p className='my-2'>asd</p>
-          <button className='bg-teal-500 px-6 text-white font-semibold rounded-full absolute -bottom-20 delay-50 duration-1000 
-          group-hover:bottom-20 scale-0 group-hover:scale-125'>
-            Watch Now
-          </button>
-        </div>
-        </div>
-              </div>
+      <div className='h- w-9/12 mt-8  mx-auto items-center justify-center md:grid md:grid-cols-3'>
+    <div className='h-96 m-8 border-double border-4 border-textunder'>
+    <img src={rajan} className="h-60 m-auto items-center justify-center md:mt-4"/>
+      <p className='text-3xl text-center italic mt-4 font-semibold'>
+      Rajan Mishra 
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+      CEO
+      </p>
     </div>
-  </div>
-  <div className='m-12'>
-  <div className='w-80 h-96 bg-transparent cursor-pointer group perspective' >
-      <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-100'>
-        <div className='absolute backface-hidden border-2 w-full h-full'>
-        <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' className='w-full h-full'></img>
-        </div>
-        <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-navbg overflow-hidden'>
-        <div className='text-center flex flex-col items-center justify-center h-full text-gray-700 px-2 pb-24'>
-          <h1 className='text-3xl font-semibold'>The King</h1>
-          <p className='my-2'>asd</p>
-          <button className='bg-teal-500 px-6 text-white font-semibold rounded-full absolute -bottom-20 delay-50 duration-1000 
-          group-hover:bottom-20 scale-0 group-hover:scale-125'>
-            Watch Now
-          </button>
-        </div>
-        </div>
-              </div>
+    <div className='h-96 m-8 border-double border-4 border-textunder'>
+    <img src={profile} className="h-60 m-auto items-center justify-center md:mt-4"/>
+    <p className='text-3xl text-center italic mt-4 font-semibold'>
+    Lokesh Batra  
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+        CFO
+      </p>
     </div>
-  </div>
-  <div className='m-12'>
-  <div className='w-80 h-96 bg-transparent cursor-pointer group perspective' >
-      <div className='relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-100'>
-        <div className='absolute backface-hidden border-2 w-full h-full'>
-        <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' className='w-full h-full'></img>
-        </div>
-        <div className='absolute my-rotate-y-180 backface-hidden w-full h-full bg-navbg overflow-hidden'>
-        <div className='text-center flex flex-col items-center justify-center h-full text-gray-700 px-2 pb-24'>
-          <h1 className='text-3xl font-semibold'>The King</h1>
-          <p className='my-2'>asd</p>
-          <button className='bg-teal-500 px-6 text-white font-semibold rounded-full absolute -bottom-20 delay-50 duration-1000 
-          group-hover:bottom-20 scale-0 group-hover:scale-125'>
-            Watch Now
-          </button>
-        </div>
-        </div>
-              </div>
+    <div className='h-96 m-8 border-double border-4 border-textunder'>
+    <img src={tushar} className="h-60 m-auto items-center justify-center md:mt-4"/>
+    <p className='text-3xl text-center italic mt-4 font-semibold'>
+    Tushar Bhagare  
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+        Operation Head
+      </p>
     </div>
-  </div>
-</div>
 
+  </div>
+
+  <div className='text-center font-extrabold text-4xl mt-4 text-textunder'>
+        Advisors
+      </div> 
+      <div className='h- w-9/12 mt-8  mx-auto items-center justify-center md:grid md:grid-cols-3'>
+    <div className='h-36 m-8 border-double border-4 border-textunder'>
+      <p className='text-3xl text-center italic mt-4 font-semibold'>
+      Dr Suhas Zambre 
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+      IIT Bombay 
+      </p>
+    </div>
+    <div className='h-36 m-8 border-double border-4 border-textunder'>
+    <p className='text-3xl text-center italic mt-4 font-semibold'>
+    Prof Madhu Vinjamur 
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+      IIT Bombay 
+      </p>
+    </div>
+    <div className='h-36 m-8 border-double border-4 border-textunder'>
+    <p className='text-3xl text-center italic mt-4 font-semibold'>
+    Dr Narendra Shah
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+      RGSTC Mumbai 
+      </p>
+    </div>
+
+  </div>
+
+  <div className='h- w-9/12   mx-auto items-center justify-center md:grid md:grid-cols-3'>
+    <div className='h-36 m-8 border-double border-4 border-textunder'>
+      <p className='text-3xl text-center italic mt-4 font-semibold'>
+      Dr Atul Dhok  
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+      MAFSU Nagpur
+      </p>
+    </div>
+    <div className='h-36 m-8 border-double border-4 border-textunder'>
+    <p className='text-3xl text-center italic mt-4 font-semibold'>
+    Dr Manoj Aware 
+      </p>
+      <p className='text-2xl text-center mt-2 font-bold'>
+      BAIF pune
+      </p>
+    </div>
+    <div className='h-36 m-8 border-double'>
     
+    </div>
 
+  </div>
     </div>
   )
 }

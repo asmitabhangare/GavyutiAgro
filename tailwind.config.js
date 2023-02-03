@@ -23,8 +23,12 @@ module.exports = {
     extend: {
       colors:{
         primary: "#4A3AFF",
-        navbg: "#dedbdb",
-        textunder: "#092d92",
+        navbg: "#95cb6a",
+        textunder: "#006400",
+        dropbg: "#D6F4BD",
+      },
+      fontFamily: {
+        body: [ 'Roboto Slab'],
       },
     },
   },
